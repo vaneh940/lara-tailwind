@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.menu{
+    @apply my-2 p-3 
+}
+
+.nombre_profesion{
+    @apply border-solid border-2 border-white rounded w-1/4 h-1/5 mx-auto my-[100px] border-opacity-50
+}
+
+
+.titulo{
+    @apply my-10 text-yellow-600 font-light text-4xl text-center
+}
+
+.formulario_contacto{
+    @apply w-full h-10 p-3 border-2 rounded-lg border-gray-200 text-sm font-extralight
+}
+
+.boton{
+    @apply py-3 px-10 border-transparent bg-blue-600 rounded-lg mt-7 text-white text-sm hover:bg-blue-500 transition duration-500
+}
+
+
+
+
+
+
+/*Aplicacion de componentes css al footer*/
+.contenedor_sociales{
+    @apply w-fit mx-auto text-center text-2xl py-10 px-5 flex justify-between
+}
+
+.sociales{
+    @apply px-6 py-4 text-white mt-5 mx-5
+}
